@@ -43,10 +43,6 @@ if "chain" not in st.session_state and api_key:
 # Input area
 user_input = st.chat_input("Type your message...")
 
-# Show messages
-for msg in st.session_state.chat_history:
-    with st.chat_message(msg["role"]):
-        st.markdown(msg["content"])
 
 # Handle user input
 if user_input:
