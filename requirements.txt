@@ -8,6 +8,7 @@ langchain_text_splitters
 sentence_transformers
 langchain_huggingface
 langchain_groq
+streamlit
 
 
 
